@@ -1,0 +1,43 @@
+body {
+  font-family: "Nunito sans";
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas:
+    "header header header header"
+    "aside main main main"
+    "aside main main main"
+    "footer footer footer footer";
+}
+/*main {
+  display: grid;
+  border: 1px solid black;
+}
+aside {
+  display: grid;
+  border: 1px solid black;
+}
+header {
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: 1fr 1fr;
+}
+
+nav {
+  display: grid;
+  border: 1px solid red;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid blue;
+}
+
+h1 {
+  border: 1px solid blue;
+}
+
+p {
+  border: 1px solid blue;
+}
+*/
