@@ -4,27 +4,35 @@ body {
   grid-gap: 5px;
   grid-template-areas:
     "header header header header"
-    "aside main main main"
-    "aside main main main"
+    "aside aside main main"
+    "aside aside main main"
     "footer footer footer footer";
 }
-/*main {
+
+main {
   display: grid;
   border: 1px solid black;
+  grid-area: main;
 }
 aside {
   display: grid;
   border: 1px solid black;
+  grid-area: aside;
 }
 header {
   display: grid;
   border: 1px solid black;
   grid-template-columns: 1fr 1fr;
+  grid-area: header;
 }
 
 nav {
   display: grid;
   border: 1px solid red;
+}
+
+footer {
+  grid-area: footer;
 }
 .nav {
   display: flex;
@@ -40,4 +48,3 @@ h1 {
 p {
   border: 1px solid blue;
 }
-*/
